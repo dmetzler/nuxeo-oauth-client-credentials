@@ -1,0 +1,12 @@
+<component name="org.nuxeo.oauth2.contrib-test" version="1.0">
+
+  <extension target="org.nuxeo.oauth2.OAuth2Component"
+    point="idp">
+    <oauth2 id="myIdp">
+      <tokenUrl>http://localhost:8888/oauth2/token</tokenUrl>
+      <clientId>clientId</clientId>
+      <clientSecret>myClientSecret</clientSecret>
+      <scope>test</scope>
+    </oauth2>
+  </extension>
+</component>

@@ -1,0 +1,17 @@
+<component name="org.nuxeo.oauth2.OAuth2Component"
+  version="1.0">
+
+  <implementation
+    class="org.nuxeo.oauth2.OAuth2Component" />
+
+  <service>
+    <provide interface="org.nuxeo.oauth2.service.AccessTokenProvider" />
+  </service>
+
+  <extension-point name="idp">
+    <object
+      class="org.nuxeo.oauth2.IdpDescriptor" />
+  </extension-point>
+
+
+</component>

@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.nuxeo.oauth2
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-oauth-client-credentials
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.nuxeo.oauth2.nuxeo-oauth-client-credentials;singleton=true
+Nuxeo-Component: OSGI-INF/oauth-token-component.xml
